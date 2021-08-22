@@ -76,6 +76,7 @@
 \newcommand{\profilepic}[1]{\renewcommand{\profilepic}{#1}}
 \newcommand{\cvname}[1]{\renewcommand{\cvname}{#1}}
 \newcommand{\cvjobtitle}[1]{\renewcommand{\cvjobtitle}{#1}}
+\newcommand{\interests}[1]{\renewcommand{\interests}{#1}}
 
 % Command for printing the contact information icons
 \newcommand*\icon[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=1pt, fill=mainblue,mainblue,text=white] (char) {#1};}}
@@ -107,6 +108,12 @@
 %----------------------------------------------------------------------------------------
 %	 SIDEBAR LAYOUT
 %----------------------------------------------------------------------------------------
+
+\newcommand{\makesidebar}{
+	\begin{tikzpicture}[remember picture,overlay]
+   		\node [rectangle, fill=sidecolor, anchor=north, minimum width=9cm, minimum height=\paperheight+1cm] (box) at (-5cm,0.5cm){};
+	\end{tikzpicture}
+}
 
 \newcommand{\makeprofile}{
 	\begin{tikzpicture}[remember picture,overlay]
@@ -156,9 +163,12 @@
 			\end{flushleft}
 		}
 
-		%------------------------------------------------
+    \profilesection{兴趣爱好}
+		\begin{flushleft}
+			\interests
+		\end{flushleft}
 
-		\profilesection{技能}
+		\profilesection{语言和技能}
 
 		\skills
 		\skillstext
@@ -228,7 +238,7 @@
 }
 
 \newcommand{\twentyitem}[4]{%
-	#1&\parbox[t]{0.83\textwidth}{%
+	{\small#1}&\parbox[t]{0.75\textwidth}{%
 		\textbf{#2}%
 		\hfill%
 		{\footnotesize#3}\\%
@@ -250,7 +260,7 @@
 }
 
 \newcommand{\twentyitemshort}[2]{%
-	#1&\parbox[t]{0.83\textwidth}{%
+	{\small#1}&\parbox[t]{0.75\textwidth}{%
 		\textbf{#2}%
 	}\\
 }
