@@ -18,7 +18,7 @@
 \RequirePackage{pgffor}
 \RequirePackage{marvosym}
 \RequirePackage{parskip}
-\RequirePackage{xeCJK}
+\RequirePackage{longtable}
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ProcessOptions\relax
@@ -232,7 +232,7 @@
 }
 
 \newcommand{\twentyitem}[4]{%
-	#1&\parbox[t]{0.70\textwidth}{%
+	{\small#1}&\parbox[t]{0.75\textwidth}{%
 		\textbf{#2}%
 		\hfill%
 		{\footnotesize#3}\\%
@@ -254,7 +254,7 @@
 }
 
 \newcommand{\twentyitemshort}[2]{%
-	#1&\parbox[t]{0.70\textwidth}{%
+	#1&\parbox[t]{0.75\textwidth}{%
 		\textbf{#2}%
 	}\\
 }
