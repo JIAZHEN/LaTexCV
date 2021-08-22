@@ -157,19 +157,15 @@
 		%------------------------------------------------
 
 		\ifthenelse{\equal{\aboutme}{}}{}{
-			\profilesection{关于我}
+			\profilesection{About me}
 			\begin{flushleft}
 				\aboutme
 			\end{flushleft}
 		}
 
 		%------------------------------------------------
-        \profilesection{兴趣爱好}
-		\begin{flushleft}
-			\interests
-		\end{flushleft}
 
-		\profilesection{语言和技能}
+		\profilesection{Skills}
 		\skills
 		\skillstext
 

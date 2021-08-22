@@ -1,0 +1,241 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper]{twentysecondcv} % a4paper for A4
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{jiazhen-xie.jpeg} % Profile picture
+
+\cvname{Jiazhen Xie} % Your name
+\cvjobtitle{Lead Software Engineer} % Job title/career
+
+\cvdate{}
+\cvaddress{London, United Kingdom} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+44 07526917121} % Phone number
+\cvsite{https://sheerdevelopment.com/} % Personal website
+\cvmail{jiazhenxie515@gmail.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{A skilled professional in the IT sector with over ten years of experience as a dynamic and results-oriented problem solver. In-depth understanding of automation test technologies and their commercial applications committed to quality improvement. Outstanding in handling technical aspects such as Ruby, Python, Clojure, Fullstack. I have received appreciation from seniors and fellowmen for the significant contribution made to the organisation. With my ability to produce innovative and practical designs, articulate open-ended business problems, and lead the team, together with my capability to prioritise works, I am a practical lead software engineer and a conference speaker.} % To have no About Me section, just remove all the text and leave \aboutme{}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{{Python/5},{People management/5},{System Design/6},{Ruby/6},{Clojure/6},{Cantonese/4.5},{Mandarin/6},{English/6}}
+
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{教育经历}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2018/10-2020/10}{软件工程硕士}{英国}{\emph{牛津大学}}
+	\twentyitem{2010/10-2011/10}{计算机科学硕士(卓越)}{英国}{\emph{伯明翰大学}}
+	\twentyitem{2006/09-2010/07}{信息管理与信息系统}{中国}{\emph{西北农林科技大学(985,211)}}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{工作经历}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem
+	    {2021/08-至今}{技术主管，Gousto (英国独角兽)}{英国伦敦}
+    	{负责Gousto Solutions的技术方向和愿景。
+        	\begin{itemize}
+              \item 与管理团队一起确定技术范围。
+              \item 与工程师领导团队合作，确保技术方向。
+              \item 从零开始组建自己的团队。
+            \end{itemize}}
+	\twentyitem
+	    {2019/05-2021/07}{技术主管，Uswitch}{英国伦敦}
+    	{领导并负责电信供应商关系团队的技术方向和愿景。
+        	\begin{itemize}
+              \item 管理和指导软件工程师。
+              \item 为电信垂直系统设计了重要的后端系统架构。
+              \item 审阅简历，为团队招聘工程师。
+              \item 清晰地表达开放式的业务问题，并带领团队交付产品。
+              \item 确保成本效益。例如，将基础设施成本从每月2000美元减至每月300美元。
+              \item 与不同学科合作。其中一个项目产生了17K英镑的收入。
+              \item RVU会议、技术会议发言人
+            \end{itemize}}
+	\twentyitem
+	    {2016/08-2019/04}{高级软件工程师，Dressipi}{英国伦敦}
+    	{Dressipi是一家领先的B2B供应商，为时尚行业提供一对一的个性化解决方案，解决零售商目前面临的两大挑战——退货率和转化率。我的职责是：
+        	\begin{itemize}
+              \item 成功地将服装特征预测的准确率从65\%提高到85\%
+              \item 维护和开发供应用使用的API
+              \item 成功实现了一个ElasticSearch插件，并提高了50\%的运行时性能
+              \item 原型设计师的想法，将特定领域的知识转化为技术解决方案
+              \item 作为DevOps维护我们的核心应用
+            \end{itemize}}
+    \twentyitem
+	    {2013/09-2016/07}{软件工程师，Venntro Media Group}{英国温莎}
+    	{我是一个拥有40多人的开发团队中的软件工程师。Venntro的开发团队使用的是敏捷方法，我负责的许多后端项目给公司和团队带来了好处。例如，执行和增强了我们的电子邮件渲染系统Scribe，增加了12\%的参与度。我还实现了一个内部工具ReleaseHub来加快部署过程。我是一名科技爱好者，也是https://github.com/JIAZHEN/ab-rules和https://github.com/JIAZHEN/releasehub的作者。我的职责是：
+        	\begin{itemize}
+              \item 为自动化测试进行系统设计并实现网页页面对象。
+              \item 优化了现有的自动化脚本，整体自动化速度提高了20\%
+            \end{itemize}}
+    \twentyitem
+	    {2011/11-2013/08}{后端电子商务软件工程师，The Suppliers Guys}{英国/美国}
+    	{作为一名软件工程师，我建立了一个自动分析谷歌Adwords(超过1000万行)的系统。我优化了一个映射算法的数据结构，使它只需要30分钟，而不是3个小时。我还为仪表板实现了一个RESTful服务，通过API推送谷歌Keywords。因为性能的原因，我在Java和play框架中做了所有这些事情。}
+\end{twenty}
+
+\section{Awards}
+
+\begin{twentyshort} % Environment for a short list with no descriptions
+	\twentyitemshort{2011}{中英高端人才创业大赛综合商业组前三}
+	%\twentyitemshort{<dates>}{<title/description>}
+\end{twentyshort}
+
+\newpage % Start a new page
+
+\makesidebar
+
+\section{职业目标}
+
+一个有上进心的个人，对开发语言和开发工具有深入的了解，希望在一家以发展为导向的公司工作，在那里我可以利用我的技能和领导力为公司带来优势，同时有发展自己技能和职业的空间。我的个人优势包括：
+\begin{itemize}
+  \item 敏捷/Devops方法论。
+  \item 强劲的项目交付成功记录。
+  \item 资深的工程能力。
+  \item 备受尊敬的领导力。
+\end{itemize}
+
+\section{项目经验}
+
+\subsection{领导并替换10多年的Uswitch后台系统}
+
+Uswitch公司有一个定制和复杂的后台系统。其导致巨大的运营成本且不允许在网站上好的产品几时上线。我在做了周密的调查后跟利益相关者认证了问题的重要性和项目的回报。最终得到了放弃这个复杂系统的承诺和领导团队的支持。为公司推出了一个标准的解决方案。然后我带领一个9人的跨部门团队最后交付。我对项目的职责和贡献是:
+\begin{itemize}
+  \item 明确业务问题，并从业务和其他团队领导那里获得支持。
+  \item 计划并提出可实现的最低目标，组织项目流程以运行项目。
+  \item 成功领导平台团队，委派任务并按时交付项目。
+  \item 取消了已有10多年历史的复杂系统，向整个公司推出了标准系统。
+  \item 每年为公司减少了6.8万美元的运营成本。
+\end{itemize}
+
+\subsection{领导并交付Uswitch英国用户地址级网速查询后端服务}
+
+这Uswitch公司来说是一个巨大的项目。项目初期整个技术细节还不确定。我使用了官方文档和最终的项目愿景，设计了后端架构。然后带领团队5人，其中2名初级工程师和2名中级工程师成功完成项目。我对项目的职责和贡献是:
+\begin{itemize}
+  \item 设计了健壮的后端系统架构，为项目进展创建具体的里程碑。
+  \item 成功领导团队，委派任务并指导他们，受到内外部成员的好评和尊敬。
+  \item 项目按时交付。
+  \item 成本效益保证。例如，将现有的基础设施成本从每月2000美元降低到每月300美元。
+  \item 与不同学科合作过。其中一个项目产生了17K英镑的收入
+\end{itemize}
+
+\subsection{用机器学习为Dressipi的服装产品自动打标签}
+
+Dressipi作为一家提供时尚装扮个性化推荐服务的公司，不得不雇佣一整个20人造型师团队来给服装贴标签。许多标签可以从图像中识别出来。本项目是利用机器学习的模型，学习图像和产品文本的特征来达到自动分类服装的时尚特征。这是一个数据科学和软件工程结合的项目由我独立完成并投入产品环境。我对项目的职责和贡献是:
+\begin{itemize}
+  \item 使用sciki-learn对图像识别技术进行了研究和实验。
+  \item 成功实现了后端系统提取图像的主色，成功对文本进行特征提取。
+  \item 整个系统端到端实施，得到了整个设计师团队的认可。
+  \item 整体预测准确率达到82\%，而之前只有65\%。
+  \item 将自动标签过程集成到现有系统中。
+\end{itemize}
+
+\subsection{对Dressipi时尚装扮服务API的性能进行优化}
+
+Dressipi API被许多合作伙伴（如英国知名零售商John Lewis, 玛莎）的web应用程序和移动应用程序所使用。在过去为了在一个请求中找到合适的搭配需要进行80多个查询。我通过对API时间和代码的分析，通过改进自定义Elastic Search插件和Elastic搜索的查询，我将查询数量减少了30\%。我对项目的职责和贡献是:
+\begin{itemize}
+  \item 维护和开发供所有应用使用的API。
+  \item 成功实现了一个弹性搜索插件，并提高了50\%的运行时性能。
+  \item 在AWS中作为DevOps维护我们的核心应用。
+\end{itemize}
+
+\newpage % Start a new page
+
+\makesidebar
+
+\subsection{Scribe-电子邮件渲染服务}
+
+Venntro Media Group的邮件服务是为公司带来巨大用户参与度的服务。Scribe的目标是将所有的渲染逻辑移动到一个单一的应用程序中，使用标准的模板语言(具有布局和部分等功能)，并将模板与代码保存在同一个git仓库中。整个系统架构使用事件驱动架构。我对项目的职责和贡献是:
+\begin{itemize}
+  \item 实现了核心Scribe，并对库做出了最大的贡献。
+  \item 改进性能，使Scribe能够渲染300邮件每秒。
+  \item 提高了12\%的邮件参与度。
+  \item 在Scribe中实现A/B测试框架。
+  \item 在Scribe中实现缓存系统。
+  \item 使用statsd和graphiti来监控性能和转化率。
+\end{itemize}
+
+\subsection{实现Wirecard支付网关}
+
+Venntro Media Group想将我们的支付网关从Sagepay切换到Wirecard，并设定一个固定的截止日期。作为一个团队，我们在最后期限的前一周成功地完成了这个项目。从QA的角度来看，我使用BDD实现支付自动化。从而极大地帮助了回归测试，获得了完美的信心。
+\begin{itemize}
+    \item 决定测试计划并实现测试用例。
+    \item 管理项目的里程碑，完成每个里程碑并如期交付。
+    \item 为支付网关实现自动化脚本。
+    \item 通过PM分析风险并成功降低风险。
+    \item 该应用程序每天可以处理超过5000笔交易。
+    \item 在并行测试中提高了20\%的自动化速度
+    \item 成功支付测试覆盖率100\%。
+\end{itemize}
+
+\section{证明人}
+\begin{itemize}
+    \item Barry Frost，CTO at The ROOM, ex-CTO in Gumtree (owned by eBuy).
+    \item David Kirton，Senior Service Delivery Manager in large consultancy firm.
+\end{itemize}
+
+
+
+%----------------------------------------------------------------------------------------
+%	 SECOND PAGE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+% \newpage % Start a new page
+
+% \makesidebar
+
+% \section{Other information}
+
+% \subsection{Review}
+
+% Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+\end{document}
