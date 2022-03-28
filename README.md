@@ -6,8 +6,9 @@ It will include two versions: one for English and one for Chinese. They will be 
 
 ## CV preview
 
-![image](https://ik.imagekit.io/w2wmbaiic/Jiazhen_Xie_CV_pdf_rnfGjrpu_h.png?updatedAt=1629660966913)
+![image](https://user-images.githubusercontent.com/1108303/160421127-da1725e2-085f-4e0d-8a2a-be30726c81f4.png)
 
 ## How to use
+
 Edit `.tex` files to change the contents. The `.cls` files are for the tex style.
 We can use [Overleaf](https://www.overleaf.com/) to preview the LaTex.
