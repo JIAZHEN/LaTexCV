@@ -6,7 +6,7 @@ It will include two versions: one for English and one for Chinese. They will be 
 
 ## CV preview
 
-![image](https://user-images.githubusercontent.com/1108303/160421127-da1725e2-085f-4e0d-8a2a-be30726c81f4.png)
+![image](https://user-images.githubusercontent.com/1108303/163203228-b9651fba-e323-4ffa-9c05-8fb119716146.png)
 
 ## How to use
 
